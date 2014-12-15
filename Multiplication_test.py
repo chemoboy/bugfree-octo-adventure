@@ -1,5 +1,10 @@
 # Multiplication test
+# import module
 from random import randint
+
+# set score to zero and turns to zero
+score = 0
+turns = 0
 
 #Pick a number
 x = int(raw_input("Please enter a number:"))
@@ -16,6 +21,11 @@ guess = int(raw_input())
 
 if guess == (x * y):
     print "Correct"
+    score += 1
 else:
     print "Wrong"
   
+print "Your score is %d " % score
+
+
+

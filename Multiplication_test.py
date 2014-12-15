@@ -12,8 +12,6 @@ print "Your number is %d and the random number is %d" % (x, y)
 
 print "What is %d x %d ?" % (x, y)
 
-print "Answer is %d" % (x * y)
-
 guess = int(raw_input())
 
 if guess == (x * y):

@@ -13,9 +13,9 @@ x = int(raw_input("Please enter a number:"))
 y = randint(1, 12)
 
 # Ask the question
-print "Your number is %d and the random number is %d" % (x, y)
+print "Your number is %s and the random number is %s" % (x, y)
 
-print "What is %d x %d ?" % (x, y)
+print "What is %s x %s ?" % (x, y)
 
 guess = int(raw_input())
 
@@ -25,7 +25,7 @@ if guess == (x * y):
 else:
     print "Wrong"
   
-print "Your score is %d " % score
+print "Your score is %s after %s turns" % (score, turns)
 
 
 
